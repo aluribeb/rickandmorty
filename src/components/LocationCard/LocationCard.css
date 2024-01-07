@@ -1,0 +1,43 @@
+/* Archivo App.css */
+
+.LocationCard__body {
+    display: inline-flex;
+    flex-direction: column; /* Alinea los elementos en columna */
+    background-color: #072226;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    margin-left: 25%;
+    margin-bottom: 2rem;
+  }
+  
+  .LocationCard__list {
+    color: whitesmoke;
+    padding: 15px;
+  }
+  
+  .LocationCard__name {
+    font-size: 1.5rem; 
+    margin-bottom: 10px;
+    color: #7bb924;
+    text-align: center;
+
+  }
+  
+  .LocationCard__body > ul {
+    display: flex;
+    flex-direction: row; 
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+  }
+  
+  .LocationCard__item {
+    font-weight: bold;
+    margin-right: 10px; 
+  }
+  
+  .LocationCard__value {
+    margin-left: 10px;
+  }
+  

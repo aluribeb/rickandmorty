@@ -1,0 +1,58 @@
+.App__container {
+    display: flex;
+    flex-direction: column;
+}
+.App__header {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+    color: rgb(255, 255, 255); 
+    text-decoration: dashed;
+    font-size: 3rem;
+}
+.App__header__img {
+    margin-top: 0;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.App__header__title {
+    position: absolute;
+    margin-top: 12rem;
+    background-color: #07222698;
+    border-radius: 25px;
+    padding: 1%
+}
+.App__input__btn {
+    margin-left: 40% ;
+    margin-top: 2rem;
+    margin-bottom: 10px;
+
+}
+.App__btn {
+    background-color: #71a821;
+    border-radius: 0 10px 10px 0; 
+}
+.input {
+    border-radius: 10px 0 0 10px;
+}
+.resident__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8em;
+    justify-content: center;
+}
+.LocationCard__visuals {
+    justify-content: center;
+    align-items: center;
+    margin-right: 45%;
+}
+.hasError__h2 {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.hasError__x {
+    color: red;
+}
