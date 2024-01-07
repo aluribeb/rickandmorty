@@ -1,24 +1,26 @@
 /* Archivo App.css */
 
 .LocationCard__body {
-    display: inline-flex;
+    display: flex;
     flex-direction: column; /* Alinea los elementos en columna */
+    align-items: center;
+    justify-content: center;
     background-color: #072226;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
-    padding: 15px;
-    margin-left: 25%;
-    margin-bottom: 2rem;
+    padding: 1rem;
+    margin: 2rem auto;
+    max-width: fit-content;
   }
   
   .LocationCard__list {
     color: whitesmoke;
-    padding: 15px;
+    padding: 1em;
   }
   
   .LocationCard__name {
     font-size: 1.5rem; 
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
     color: #7bb924;
     text-align: center;
 

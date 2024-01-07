@@ -41,6 +41,7 @@
 .resident__status__value {
     font-size: 0.8rem;
     font-weight: 600;
+
 }
 .resident__body {
     padding: 1.5em 1em 2em;
@@ -65,7 +66,10 @@
     font-size: 0.8rem;
 }
 .resident__label {
-    padding-left: 1em;
-    color: #999 ;
+    padding-left: 1.2em;
+    color: whitesmoke ;
     font-weight: 600;
+}
+.resident__value {
+    margin-left: 1em;
 }
