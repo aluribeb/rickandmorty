@@ -4,7 +4,7 @@ import useFetch from './hooks/useFetch'
 import getRandomNumber from './utils/getRandomNumber'
 import LocationCard from './components/LocationCard/LocationCard'
 import ResidentCard from './components/ResidentCard/ResidentCard'
-import '../public/header.jpg'
+import '/header.jpg'
 
 function App() {
 
@@ -29,7 +29,7 @@ function App() {
   return (
     <div className='App__container'>
       <header className='App__header'>
-      <img className='App__header__img' src='../public/header.jpg'/>
+      <img className='App__header__img' src='/header.jpg'/>
       <h1 className='App__header__title'>Rick & Morty</h1>
       </header>
       <form className='App__input__btn'onSubmit={handleSubmit}>
